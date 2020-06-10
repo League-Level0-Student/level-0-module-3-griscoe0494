@@ -18,6 +18,9 @@ public class CrazyCatLady {
 		}
 		// 4. If they have less than 3 cats AND more than 0 cats, call the method below to show them a cat video
 		if(inputAsInt<3) {
+			playVideo("https://www.youtube.com/watch?v=XyNlqQId-nk");
+		}
+		if(inputAsInt>0) {
 			
 		}
 		//    Hint: You can use the && operator 
